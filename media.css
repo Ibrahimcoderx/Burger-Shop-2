@@ -1,0 +1,419 @@
+/* media quari........ ..............*/
+
+@media (max-width: 1000px){
+    nav{
+      padding: 0 40px 0 50px;
+    }
+  }
+  @media (max-width: 920px) {
+    nav .menu-btn i{
+      display: block;
+    }
+
+    body{
+       overflow-x: hidden;
+    }
+    
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+  
+    nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background: #111;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+      z-index: 15;
+    }
+
+    /* nav update changing */
+.nav1{
+  position: fixed;
+  z-index: 20;
+  background-color: #111;
+  top: 0px;
+  left: 0%;
+}
+.carousel1{
+  position: relative;
+  margin-top: 80px;
+  top:0;
+  left: 0;
+}
+
+.icon1{
+  display: none;
+}
+
+
+
+/* .carousel1{
+  margin-top: 20%;
+} */
+ /* nav update changing  end*/
+ 
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+
+    }
+    
+
+
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: yellow;
+    }
+  
+    .logo{
+      padding-right:70%;
+      text-align: right;
+     }
+  
+  }
+  @media (max-width: 720px) {
+    .logo{
+      padding-right:68%;
+      text-align: right;
+    
+     }
+  }
+  @media (max-width: 620px) {
+    .logo{
+      padding-right:65%;
+      text-align: right;
+    
+     }
+  }
+
+
+  @media (max-width: 520px) {
+    .logo{
+      padding-right:60%;
+      text-align: right;
+    
+     }
+  }
+  
+  @media (max-width: 420px) {
+    .logo{
+      padding-right:40%;
+      text-align: right;
+    
+     }
+  }
+  
+  @media (max-width: 320px) {
+    .logo{
+      padding-right:35%;
+      text-align: right;
+    
+     }
+  }
+ 
+
+
+  /* big device----------- */
+
+  @media(min-width:921px) and (max-width:1199px){ 
+  
+    .logo{
+      padding-right:30%;
+      text-align: right;
+    
+     }
+  
+  }
+  
+  @media(min-width:1451px) and (max-width:1650px){ 
+  
+    .logo{
+      padding-right:20%;
+     
+     }
+     #last3{
+       margin-left:250px;
+     }
+     
+  
+  }
+  
+  
+  @media(min-width:1401px) and (max-width:1450px){ 
+  
+    .logo{
+      padding-right:17%;
+     
+     }
+     #last3{
+       margin-left:220px;
+     }
+     
+  
+  }
+  @media(min-width:1351px) and (max-width:1400px){ 
+  
+    .logo{
+      padding-right:15%;
+     
+     }
+     #last3{
+       margin-left:220px;
+     }
+     
+  
+  }
+
+
+  @media(min-width:1221px) and (max-width:1350px){ 
+  
+    .logo{
+      padding-right:15%;
+     
+     }
+     #last3{
+       margin-left: 120px;
+     }
+     
+  
+  }
+  @media(min-width:1115px) and (max-width:1220px){ 
+  
+    .logo{
+      padding-right:10%;
+     
+     }
+     #last3{
+       margin-left: 80px;
+     }
+     
+  
+  }
+  @media(min-width:1026px) and (max-width:1114px){ 
+  
+    .logo{
+      padding-right:5%;
+     
+     }
+     #last3{
+       margin-left: 40px;
+     }
+     
+  }
+  @media(min-width:900px) and (max-width:1025px){ 
+  
+    .logo{
+      padding-right:1%;
+     
+     }
+     #last3{
+       margin-left: 20px;
+     }
+     
+  }
+
+  /* navbar end--------------------- */
+  /* background crasoul---------- start---- */
+
+  @media (max-width: 920px) {
+
+    #caroindec li{
+       display: none;
+    }
+    
+  }
+  /* background crasoul---------- end--- */
+
+/* all img------------- */
+
+@media (max-width: 769px) {
+
+  .container2{
+    margin: 0 10%;
+  }
+}
+@media (max-width: 576px) {
+
+  .socialimg4{
+    text-align: center;
+    margin-left: 20px;
+  }
+  .all-social-img{
+    margin-top: 50px;
+    padding: 5px;
+  }
+  
+}
+@media (max-width: 576px) {
+  .section-footer .col-12{
+    padding: 10px;
+  }
+ 
+}
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 513.98px) { 
+
+      .bg-p-text{
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .bg-h2-text{
+        padding-top: 0px;
+        font-size: 25px;
+        line-height: 32px;
+      }
+      .carousel-txt{
+        position: absolute;
+        top:70px;
+        left: 18%;
+        text-align: center;
+    }
+    
+    .prev-btn-div{
+      position: absolute;
+      top:40%;
+      left:-10%;
+    }
+    .next-btn-div{
+      position: absolute;
+      top:40%;
+      right:-17%;
+    }
+    .fa-heart{
+      margin-left:10%;
+    }
+    .cart2{
+      margin-left:10%;
+    }
+    .fa-user{
+      margin-left:10%;
+    }
+
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 514px) and (max-width: 689.98px) { 
+  .bg-p-text{
+    font-size: 20px;
+  }
+  .bg-h2-text{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .carousel-txt{
+    position: absolute;
+    top:100px;
+    left: 15%;
+    text-align: center;
+}
+
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 690px) and (max-width: 993.98px) { 
+  .bg-p-text{
+    font-size: 32px;
+  }
+  .bg-h2-text{
+    font-size: 60px;
+    line-height: 70px;
+    
+  }
+
+  .carousel-txt{
+    position: absolute;
+    top:100px;
+    left: 15%;
+    text-align: center;
+}
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 994px) and (max-width: 1089.98px) {  
+  .bg-p-text{
+    font-size: 26px;
+  }
+  .bg-h2-text{
+    font-size: 86px;
+  }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .bg-p-text{
+    font-size: 32px;
+  }
+  .bg-h2-text{
+    font-size: 96px;
+  }
+
+ }
+
+
+
+/*   
+  @media (max-width: 575px) {
+
+   img {display: block;}
+   .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+  
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: block;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content:left;
+    justify-content: left;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 228px;
+    object-fit: cover;
+  }
+    
+  } */
+
+  /* @media (max-width: 768px) {
+    .swiper .img-box img{
+      height: 370px;
+      width: 400px;
+      z-index: -1;
+      text-align: center;
+  }} */
